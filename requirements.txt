@@ -12,6 +12,3 @@ sendgrid
 pip>=24.0
 setuptools>=68.0
 wheel
-
-# Install langchain_groq from GitHub
-git+https://github.com/groq-ai/langchain-groq.git@main#egg=langchain_groq
