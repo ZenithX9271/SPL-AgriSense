@@ -1,29 +1,26 @@
 # requirements.txt
-# This list is comprehensive and includes all modules imported in your application.
 
-# Core Web App, Data Handling, and Utilities
+# --- Core Dependencies (Must be present for your imports) ---
 streamlit
 pandas
 numpy
 requests
-python-dotenv  # Needed for secure local API key handling
-
-# Geolocation Services
 geopy
+sendgrid
+argostranslate
 
-# LLM / AI Integration
-groq
+# --- LLM/LangChain Dependencies (Fixing the import issue) ---
+# Install the core LangChain library
 langchain
+
+# Install the Groq connector (which often pulls in 'langchain-community')
 langchain-groq
-# Note: 'langchain-community' is often included by 'langchain-groq', but keeping it for safety.
+
+# Install the community connector explicitly for safety
 langchain-community
 
-# Machine Learning Components (used in the app's mock setup or development environment)
-scikit-learn
-# Note: If scikit-learn is not required, you can remove it.
+# Install the Groq SDK
+groq
 
-# Email Service
-sendgrid
-
-# Translation
-argostranslate
+# Python-dotenv for local testing 
+python-dotenv
