@@ -1,0 +1,25 @@
+# Core Web App, Data Handling, and Utilities
+streamlit
+pandas
+numpy
+requests
+
+# Geolocation Services
+geopy
+
+# LLM / AI Integration
+groq
+langchain>=0.3
+langchain-groq
+langchain-community
+
+# Machine Learning Components
+scikit-learn
+
+# Email Integration
+sendgrid
+
+# Upgrade tools (recommended for Streamlit Cloud builds)
+pip>=24.0
+setuptools>=68.0
+wheel
