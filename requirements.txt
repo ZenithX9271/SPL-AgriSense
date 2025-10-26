@@ -1,25 +1,29 @@
+# requirements.txt
+# This list is comprehensive and includes all modules imported in your application.
+
 # Core Web App, Data Handling, and Utilities
 streamlit
 pandas
 numpy
 requests
+python-dotenv  # Needed for secure local API key handling
 
 # Geolocation Services
 geopy
 
 # LLM / AI Integration
 groq
-langchain>=0.3
+langchain
 langchain-groq
+# Note: 'langchain-community' is often included by 'langchain-groq', but keeping it for safety.
 langchain-community
 
-# Machine Learning Components
+# Machine Learning Components (used in the app's mock setup or development environment)
 scikit-learn
+# Note: If scikit-learn is not required, you can remove it.
 
-# Email Integration
+# Email Service
 sendgrid
 
-# Upgrade tools (recommended for Streamlit Cloud builds)
-pip>=24.0
-setuptools>=68.0
-wheel
+# Translation
+argostranslate
