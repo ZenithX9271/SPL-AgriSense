@@ -31,8 +31,8 @@ PROJECT_NAME = "SPL-AgriSense"
 MOCK_DATABASE_FILE = "mock_db.json"
 
 # 1. API KEYS (CRITICAL SEPARATION)
-SENDGRID_API_KEY = os.environ.get("SENDGRID_API_KEY", "")             
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")                 
+SENDGRID_API_KEY = st.secrets['SENDGRID_API_KEY']             
+GROQ_API_KEY = st.secrets['GROQ_API_KEY']                 
 
 # 2. FERTILIZER CONTACT/EMAIL
 MOCK_FERTILIZER_SHOP_CONTACT = "+91-99999 88 777"
