@@ -7,18 +7,28 @@ import time
 import json
 import random
 import uuid
-from geopy.geocoders import Nominatim
-from geopy.exc import GeocoderServiceError
+import os
 import requests
 import numpy as np
-import os
-from dotenv import load_dotenv 
+
+from geopy.geocoders import Nominatim
+from geopy.exc import GeocoderServiceError
+
+from dotenv import load_dotenv
+
+# Groq + LangChain integration
 from groq import Groq
 from langchain_groq import ChatGroq
+
+# Updated LangChain imports (v0.3+)
 from langchain_core.prompts import ChatPromptTemplate
-from langchain.chains import LLMChain
+from langchain_core.output_parsers import StrOutputParser
+from langchain_community.chains import LLMChain  # moved here in newer versions
+
+# Email support
 import sendgrid
 from sendgrid.helpers.mail import Mail
+
 
 # --- ARGOS TRANSLATE IMPORTS ---
 import argostranslate.package
