@@ -21,12 +21,13 @@ from langchain_groq import ChatGroq
 
 # LangChain imports (v0.3+)
 from langchain.prompts import ChatPromptTemplate
-from langchain.chains.llm import LLMChain
+from langchain.chains import LLMChain
 from langchain.output_parsers import StrOutputParser
 
 # Email support
 import sendgrid
 from sendgrid.helpers.mail import Mail
+
 
 
 
