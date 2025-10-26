@@ -4,8 +4,7 @@ numpy
 requests
 geopy
 groq
-langchain>=0.3.0
-langchain-groq>=0.3.0
+langchain==0.3.27
 python-dotenv
 scikit-learn
 sendgrid
