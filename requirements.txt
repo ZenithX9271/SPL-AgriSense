@@ -1,0 +1,25 @@
+# Core Web App, Data Handling, and Utilities
+streamlit
+pandas
+numpy
+requests
+
+# Geolocation Services
+geopy
+
+# LLM / AI Integration
+# Groq Python SDK for connecting to the Groq API
+groq 
+# LangChain core
+langchain
+# LangChain connector for Groq (often used instead of groq SDK directly with LCEL)
+langchain-groq
+# LangChain utility for various connectors (often a necessary dependency)
+langchain-community 
+
+# Machine Learning Components
+scikit-learn
+
+sendgrid
+
+#wavom23637@lovleo.com
