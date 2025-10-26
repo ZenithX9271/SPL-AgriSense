@@ -47,10 +47,14 @@ LLM_MOCK_RESPONSE_CROP_PRESENT = "Mock Response (N/A Key): Analyze your data. Ap
 LLM_MOCK_RESPONSE_NO_CROP = "Mock Response (N/A Key): Based on the NPK values, the ideal starter crop is **Mustard (Rabi)**. Focus on balancing Phosphorus initially."
 
 # File Paths (For Developer Details Page)
-PROF_IMAGE_PATH = '/Users/shash/Library/CloudStorage/OneDrive-IITDelhi/Currently Doing/Gemini/Pictures/Prof_Image.jpg' 
-SHASHANK_IMAGE_PATH = '/Users/shash/Library/CloudStorage/OneDrive-IITDelhi/Currently Doing/Gemini/Pictures/Shashank_Image.jpeg'
-RAJU_IMAGE_PATH = '/Users/shash/Library/CloudStorage/OneDrive-IITDelhi/Currently Doing/GemINI/Pictures/Raju_Image.jpeg'
-GAURAV_IMAGE_PATH = '/Users/shash/Library/CloudStorage/OneDrive-IITDelhi/Currently Doing/Gemini/Pictures/Gaurav_Image.jpeg'
+PROF_IMAGE_PATH = 'Pictures/Prof_Image.jpg' 
+SHASHANK_IMAGE_PATH = 'Pictures/Shashank_Image.jpeg'
+RAJU_IMAGE_PATH = 'Pictures/Raju_Image.jpeg'
+GAURAV_IMAGE_PATH = 'Pictures/Gaurav_Image.jpeg'
+# PROF_IMAGE_PATH = '/Users/shash/Library/CloudStorage/OneDrive-IITDelhi/Currently Doing/Gemini/Pictures/Prof_Image.jpg' 
+# SHASHANK_IMAGE_PATH = '/Users/shash/Library/CloudStorage/OneDrive-IITDelhi/Currently Doing/Gemini/Pictures/Shashank_Image.jpeg'
+# RAJU_IMAGE_PATH = '/Users/shash/Library/CloudStorage/OneDrive-IITDelhi/Currently Doing/GemINI/Pictures/Raju_Image.jpeg'
+# GAURAV_IMAGE_PATH = '/Users/shash/Library/CloudStorage/OneDrive-IITDelhi/Currently Doing/Gemini/Pictures/Gaurav_Image.jpeg'
 
 st.set_page_config(page_title=PROJECT_NAME, layout="wide")
 
