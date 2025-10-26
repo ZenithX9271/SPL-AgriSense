@@ -1,26 +1,20 @@
-# requirements.txt
-
-# --- Core Dependencies (Must be present for your imports) ---
 streamlit
 pandas
 numpy
 requests
 geopy
-sendgrid
-argostranslate
 
-# --- LLM/LangChain Dependencies (Fixing the import issue) ---
-# Install the core LangChain library
-langchain
-
-# Install the Groq connector (which often pulls in 'langchain-community')
+# LLM / AI Integration
+groq
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community
 langchain-groq
 
-# Install the community connector explicitly for safety
-langchain-community
+scikit-learn
+sendgrid
 
-# Install the Groq SDK
-groq
-
-# Python-dotenv for local testing 
-python-dotenv
+# Build tools
+pip>=24.0
+setuptools>=68.0
+wheel
