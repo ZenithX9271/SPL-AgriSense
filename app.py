@@ -1,5 +1,4 @@
 # streamlit_app.py - V14.0 (FINAL: Theme Button Now Changes Background/Text Colors)
-
 import streamlit as st
 import pandas as pd
 import datetime
@@ -20,14 +19,15 @@ from dotenv import load_dotenv
 from groq import Groq
 from langchain_groq import ChatGroq
 
-# Updated LangChain imports (v0.3+)
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import StrOutputParser
-from langchain_community.chains import LLMChain  # moved here in newer versions
+# LangChain imports (v0.3+)
+from langchain.prompts import ChatPromptTemplate
+from langchain.chains.llm import LLMChain
+from langchain.output_parsers import StrOutputParser
 
 # Email support
 import sendgrid
 from sendgrid.helpers.mail import Mail
+
 
 
 # --- ARGOS TRANSLATE IMPORTS ---
